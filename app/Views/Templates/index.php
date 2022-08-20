@@ -31,7 +31,7 @@
                     <li class="nav-item"><a class="nav-link" href="#Tools">TOOLS</a></li>
                     <li class="nav-item"><a class="nav-link" href="#services">GAME</a></li>
                     <li class="nav-item"><a class="nav-link" href="#portfolio">ARTICEL</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">CONTACT ME</a></li>
                 </ul>
             </div>
         </div>
