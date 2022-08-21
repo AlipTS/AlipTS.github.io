@@ -1,0 +1,20 @@
+CRITICAL - 2022-08-20 21:27:55 --> Invalid file: Tools/css.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Tools/css.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tools/css', [], true)
+ 3 APPPATH\Controllers\Tools.php(14): view('Tools/css')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tools->ReferPage('FCPATH\\css', 'styles.css')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tools))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-20 21:27:55 --> Invalid file: Tools/js.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Tools/js.php')
+ 2 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render('Tools/js', [], true)
+ 3 APPPATH\Controllers\Tools.php(14): view('Tools/js')
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tools->ReferPage('FCPATH\\js', 'scripts.js')
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tools))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

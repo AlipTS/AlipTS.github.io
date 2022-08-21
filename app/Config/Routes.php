@@ -37,6 +37,7 @@ $routes->set404Override();
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 $routes->get('/Tools', 'Tools::index');
+$routes->get('/Tools/(:segment)', 'Tools::referTo/$1');
 
 /*
  * --------------------------------------------------------------------

@@ -8,4 +8,15 @@ class Tools extends BaseController
     {
         return view('Tools/dashboardTools');
     }
+
+    public function referTo($referTo)
+    {
+        return view('Tools/' . $referTo);
+    }
+
+    public function jpgToPng()
+    {
+        echo ('masuk');
+        return view('Tools/dashboardTools');
+    }
 }
