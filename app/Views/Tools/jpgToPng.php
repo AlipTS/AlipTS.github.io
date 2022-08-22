@@ -4,8 +4,8 @@
     <div class="container px-4 px-lg-5 h-100">
         <div class="row align-items-center justify-content-center text-center">
             <div class="col-8">
-
-                <form action="tools/jpgToPng" method="POST" enctype="multipart/form-data">
+                <input type="hidden" name="image" value="">
+                <form action='/Tools/jpgToPng_convert' method="POST" enctype="multipart/form-data">
                     <?= csrf_field(); ?>
                     <div class="row mb-3">
                         <div class="col-sm-10">
@@ -17,6 +17,10 @@
 
             </div>
         </div>
+        <?php if (isset($image)) : ?>
+
+            <iframe src="<?= $image; ?>"> </iframe>
+        <?php endif ?>
     </div>
 </section>
 <?= $this->endSection(); ?>

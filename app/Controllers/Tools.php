@@ -9,14 +9,24 @@ class Tools extends BaseController
         return view('Tools/dashboardTools');
     }
 
-    public function referTo($referTo)
-    {
-        return view('Tools/' . $referTo);
-    }
-
     public function jpgToPng()
     {
-        echo ('masuk');
-        return view('Tools/dashboardTools');
+        return view('Tools/jpgToPng');
+    }
+    public function jpgToPng_convert()
+    {
+        $bahan = $this->request->getFile('fileJpgToPng');
+        $imageObject = imagecreatefromjpeg($bahan);
+
+        header('Content-type: image/png');
+        $a = imagepng($imageObject);
+        imagedestroy($imageObject);
+        $data = [
+            'title' => "JPG TO PNG",
+            'image' => $a
+        ];
+
+
+        return view('Tools/dashboardTools', $data);
     }
 }
