@@ -1,0 +1,129 @@
+CRITICAL - 2022-08-23 19:06:05 --> Unable to save the image. Please make sure the image and file directory are writable.
+in SYSTEMPATH\Images\Handlers\GDHandler.php on line 261.
+ 1 SYSTEMPATH\Images\Handlers\GDHandler.php(261): CodeIgniter\Images\Exceptions\ImageException::forSaveFailed()
+ 2 APPPATH\Controllers\Tools.php(31): CodeIgniter\Images\Handlers\GDHandler->save('img/filettjpgtopng/C:\\xampp\\tmp\\phpA483.tmp.png')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tools->jpgToPng_convert()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tools))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-23 19:07:57 --> Unable to save the image. Please make sure the image and file directory are writable.
+in SYSTEMPATH\Images\Handlers\GDHandler.php on line 261.
+ 1 SYSTEMPATH\Images\Handlers\GDHandler.php(261): CodeIgniter\Images\Exceptions\ImageException::forSaveFailed()
+ 2 APPPATH\Controllers\Tools.php(31): CodeIgniter\Images\Handlers\GDHandler->save('img/filettjpgtopng/c:\\xampp\\tmp\\php5a61.tmp.png')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tools->jpgToPng_convert()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tools))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-23 19:14:18 --> Unable to save the image. Please make sure the image and file directory are writable.
+in SYSTEMPATH\Images\Handlers\GDHandler.php on line 261.
+ 1 SYSTEMPATH\Images\Handlers\GDHandler.php(261): CodeIgniter\Images\Exceptions\ImageException::forSaveFailed()
+ 2 APPPATH\Controllers\Tools.php(31): CodeIgniter\Images\Handlers\GDHandler->save('img/filettjpgtopng/c:\\xampp\\tmp\\php2904.tmp.png')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tools->jpgToPng_convert()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tools))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-23 19:14:32 --> Unable to save the image. Please make sure the image and file directory are writable.
+in SYSTEMPATH\Images\Handlers\GDHandler.php on line 261.
+ 1 SYSTEMPATH\Images\Handlers\GDHandler.php(261): CodeIgniter\Images\Exceptions\ImageException::forSaveFailed()
+ 2 APPPATH\Controllers\Tools.php(31): CodeIgniter\Images\Handlers\GDHandler->save('img/filettjpgtopng/c:\\xampp\\tmp\\php6207.tmp.png')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tools->jpgToPng_convert()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tools))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-23 19:15:01 --> Unable to save the image. Please make sure the image and file directory are writable.
+in SYSTEMPATH\Images\Handlers\GDHandler.php on line 261.
+ 1 SYSTEMPATH\Images\Handlers\GDHandler.php(261): CodeIgniter\Images\Exceptions\ImageException::forSaveFailed()
+ 2 APPPATH\Controllers\Tools.php(31): CodeIgniter\Images\Handlers\GDHandler->save('img/filettjpgtopng/c:\\xampp\\tmp\\phpd2d3.tmp.png')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tools->jpgToPng_convert()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tools))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-23 19:15:28 --> Unable to save the image. Please make sure the image and file directory are writable.
+in SYSTEMPATH\Images\Handlers\GDHandler.php on line 261.
+ 1 SYSTEMPATH\Images\Handlers\GDHandler.php(261): CodeIgniter\Images\Exceptions\ImageException::forSaveFailed()
+ 2 APPPATH\Controllers\Tools.php(31): CodeIgniter\Images\Handlers\GDHandler->save('img/filettjpgtopng/c:\\xampp\\tmp\\php3cd9.tmp.png')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tools->jpgToPng_convert()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tools))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-23 19:18:45 --> Unable to save the image. Please make sure the image and file directory are writable.
+in SYSTEMPATH\Images\Handlers\GDHandler.php on line 261.
+ 1 SYSTEMPATH\Images\Handlers\GDHandler.php(261): CodeIgniter\Images\Exceptions\ImageException::forSaveFailed()
+ 2 APPPATH\Controllers\Tools.php(31): CodeIgniter\Images\Handlers\GDHandler->save('img/filettjpgtopng/c:\\xampp\\tmp\\php3eee.tmp.png')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tools->jpgToPng_convert()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tools))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-23 19:19:07 --> Unable to save the image. Please make sure the image and file directory are writable.
+in SYSTEMPATH\Images\Handlers\GDHandler.php on line 261.
+ 1 SYSTEMPATH\Images\Handlers\GDHandler.php(261): CodeIgniter\Images\Exceptions\ImageException::forSaveFailed()
+ 2 APPPATH\Controllers\Tools.php(31): CodeIgniter\Images\Handlers\GDHandler->save('img/filettjpgtopng/c:\\xampp\\tmp\\php924f.tmp.png')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tools->jpgToPng_convert()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tools))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-23 19:20:03 --> Unable to save the image. Please make sure the image and file directory are writable.
+in SYSTEMPATH\Images\Handlers\GDHandler.php on line 261.
+ 1 SYSTEMPATH\Images\Handlers\GDHandler.php(261): CodeIgniter\Images\Exceptions\ImageException::forSaveFailed()
+ 2 APPPATH\Controllers\Tools.php(31): CodeIgniter\Images\Handlers\GDHandler->save('../writable/img/filettjpgtopng/c:\\xampp\\tmp\\php6cb2.tmp.png')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tools->jpgToPng_convert()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tools))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-23 19:23:36 --> Unable to save the image. Please make sure the image and file directory are writable.
+in SYSTEMPATH\Images\Handlers\GDHandler.php on line 261.
+ 1 SYSTEMPATH\Images\Handlers\GDHandler.php(261): CodeIgniter\Images\Exceptions\ImageException::forSaveFailed()
+ 2 APPPATH\Controllers\Tools.php(31): CodeIgniter\Images\Handlers\GDHandler->save('http://localhost:8080/img/filettjpgtopng/c:%5Cxampp%5Ctmp%5Cphpaf5b.tmp.png')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tools->jpgToPng_convert()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tools))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-23 19:23:59 --> Unable to save the image. Please make sure the image and file directory are writable.
+in SYSTEMPATH\Images\Handlers\GDHandler.php on line 261.
+ 1 SYSTEMPATH\Images\Handlers\GDHandler.php(261): CodeIgniter\Images\Exceptions\ImageException::forSaveFailed()
+ 2 APPPATH\Controllers\Tools.php(31): CodeIgniter\Images\Handlers\GDHandler->save('http://localhost:8080/img/filettjpgtopng/C:%5Cxampp%5Ctmp%5Cphp7DD.tmp.png')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tools->jpgToPng_convert()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tools))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-23 19:24:58 --> Trying to access array offset on value of type null
+in SYSTEMPATH\Files\File.php on line 148.
+ 1 SYSTEMPATH\Files\File.php(148): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'SYSTEMPATH\\Files\\File.php', 148, [...])
+ 2 SYSTEMPATH\Images\Handlers\BaseHandler.php(712): CodeIgniter\Files\File->move('img/filettjpgtopng/C:\\xampp\\tmp\\phpEF5F.tmp.png/')
+ 3 APPPATH\Controllers\Tools.php(31): CodeIgniter\Images\Handlers\BaseHandler->__call('move', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tools->jpgToPng_convert()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tools))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-23 19:27:22 --> Trying to access array offset on value of type null
+in SYSTEMPATH\Files\File.php on line 148.
+ 1 SYSTEMPATH\Files\File.php(148): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'SYSTEMPATH\\Files\\File.php', 148, [...])
+ 2 SYSTEMPATH\Images\Handlers\BaseHandler.php(712): CodeIgniter\Files\File->move('img/filettjpgtopng/C:\\xampp\\tmp\\php207A.tmp.png/')
+ 3 APPPATH\Controllers\Tools.php(31): CodeIgniter\Images\Handlers\BaseHandler->__call('move', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tools->jpgToPng_convert()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tools))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-23 19:27:56 --> Trying to access array offset on value of type null
+in SYSTEMPATH\Files\File.php on line 148.
+ 1 SYSTEMPATH\Files\File.php(148): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to access array offset on value of type null', 'SYSTEMPATH\\Files\\File.php', 148, [...])
+ 2 SYSTEMPATH\Images\Handlers\BaseHandler.php(712): CodeIgniter\Files\File->move('img/filettjpgtopng/a.png/')
+ 3 APPPATH\Controllers\Tools.php(31): CodeIgniter\Images\Handlers\BaseHandler->__call('move', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tools->jpgToPng_convert()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tools))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
