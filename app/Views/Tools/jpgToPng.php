@@ -17,9 +17,12 @@
 
             </div>
         </div>
+        <script>
+            alert("$image");
+        </script>
         <?php if (isset($image)) : ?>
-
-            <iframe src="<?= $image; ?>"> </iframe>
+        
+            <iframe src='<?= $image; ?>'> </iframe>
         <?php endif ?>
     </div>
 </section>

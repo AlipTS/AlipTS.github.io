@@ -1,0 +1,247 @@
+CRITICAL - 2022-11-18 05:39:49 --> imagepng(): Argument #1 ($image) must be of type GdImage, CodeIgniter\HTTP\Files\UploadedFile given
+in APPPATH\Controllers\Tools.php on line 36.
+ 1 APPPATH\Controllers\Tools.php(36): imagepng(Object(CodeIgniter\HTTP\Files\UploadedFile), 'img/filettjpgtopng/a. png')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tools->jpgToPng_convert()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tools))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-18 05:39:54 --> imagepng(): Argument #1 ($image) must be of type GdImage, CodeIgniter\HTTP\Files\UploadedFile given
+in APPPATH\Controllers\Tools.php on line 36.
+ 1 APPPATH\Controllers\Tools.php(36): imagepng(Object(CodeIgniter\HTTP\Files\UploadedFile), 'img/filettjpgtopng/a. png')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tools->jpgToPng_convert()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tools))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-18 05:39:57 --> imagepng(): Argument #1 ($image) must be of type GdImage, CodeIgniter\HTTP\Files\UploadedFile given
+in APPPATH\Controllers\Tools.php on line 36.
+ 1 APPPATH\Controllers\Tools.php(36): imagepng(Object(CodeIgniter\HTTP\Files\UploadedFile), 'img/filettjpgtopng/a. png')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tools->jpgToPng_convert()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tools))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-18 05:41:30 --> Undefined variable $namaImg
+in APPPATH\Controllers\Tools.php on line 33.
+ 1 APPPATH\Controllers\Tools.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $namaImg', 'APPPATH\\Controllers\\Tools.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tools->jpgToPng_convert()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tools))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-18 05:41:49 --> Call to a member function getRandomName() on string
+in APPPATH\Controllers\Tools.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tools->jpgToPng_convert()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tools))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-18 05:43:28 --> Call to undefined function App\Controllers\String()
+in APPPATH\Controllers\Tools.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tools->jpgToPng_convert()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tools))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-18 05:43:40 --> Call to undefined function App\Controllers\toString()
+in APPPATH\Controllers\Tools.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tools->jpgToPng_convert()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tools))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-18 05:44:01 --> Call to undefined function App\Controllers\toString()
+in APPPATH\Controllers\Tools.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tools->jpgToPng_convert()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tools))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-18 05:46:47 --> Undefined constant "App\Controllers\name"
+in APPPATH\Controllers\Tools.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tools->jpgToPng_convert()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tools))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-18 05:47:31 --> Cannot use object of type CodeIgniter\HTTP\Files\UploadedFile as array
+in APPPATH\Controllers\Tools.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tools->jpgToPng_convert()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tools))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-18 05:52:45 --> imagepng(): Argument #1 ($image) must be of type GdImage, CodeIgniter\HTTP\Files\UploadedFile given
+in APPPATH\Controllers\Tools.php on line 33.
+ 1 APPPATH\Controllers\Tools.php(33): imagepng(Object(CodeIgniter\HTTP\Files\UploadedFile), 'img/filettjpgtopng/1668772365_14ee9f76b42265849293.jpeg. png')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tools->jpgToPng_convert()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tools))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-18 05:53:23 --> Call to undefined method CodeIgniter\HTTP\Files\UploadedFile::str_split()
+in APPPATH\Controllers\Tools.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tools->jpgToPng_convert()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tools))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-18 05:57:27 --> Call to undefined method CodeIgniter\HTTP\Files\UploadedFile::split()
+in APPPATH\Controllers\Tools.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tools->jpgToPng_convert()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tools))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-18 05:58:51 --> Call to undefined method CodeIgniter\HTTP\Files\UploadedFile::explode()
+in APPPATH\Controllers\Tools.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tools->jpgToPng_convert()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tools))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-18 05:59:32 --> imagepng(): Argument #1 ($image) must be of type GdImage, CodeIgniter\HTTP\Files\UploadedFile given
+in APPPATH\Controllers\Tools.php on line 35.
+ 1 APPPATH\Controllers\Tools.php(35): imagepng(Object(CodeIgniter\HTTP\Files\UploadedFile), 'img/filettjpgtopng/1668772772_9d1d5d3d30203ea28cc9.jpeg. png')
+ 2 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tools->jpgToPng_convert()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tools))
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-18 06:14:35 --> Call to undefined function App\Controllers\image()
+in APPPATH\Controllers\Tools.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tools->jpgToPng_convert()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tools))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-18 06:15:07 --> Call to undefined method App\Controllers\Tools::withFile()
+in APPPATH\Controllers\Tools.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tools->jpgToPng_convert()
+ 2 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tools))
+ 3 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-18 06:15:19 --> Unable to save the image. Please make sure the image and file directory are writable.
+in SYSTEMPATH\Images\Handlers\GDHandler.php on line 261.
+ 1 SYSTEMPATH\Images\Handlers\GDHandler.php(261): CodeIgniter\Images\Exceptions\ImageException::forSaveFailed()
+ 2 APPPATH\Controllers\Tools.php(35): CodeIgniter\Images\Handlers\GDHandler->save('/img/filettjpgtopng/image.png')
+ 3 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tools->jpgToPng_convert()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tools))
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-18 06:15:46 --> Trying to access array offset on value of type null
+in SYSTEMPATH\Files\File.php on line 148.
+ 1 SYSTEMPATH\Files\File.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'SYSTEMPATH\\Files\\File.php', 148)
+ 2 SYSTEMPATH\Images\Handlers\BaseHandler.php(712): CodeIgniter\Files\File->move('/img/filettjpgtopng/image.png/')
+ 3 APPPATH\Controllers\Tools.php(35): CodeIgniter\Images\Handlers\BaseHandler->__call('move', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tools->jpgToPng_convert()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tools))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-18 06:18:49 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 718.
+ 1 SYSTEMPATH\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([], false)
+ 3 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 4 APPPATH\Controllers\Tools.php(45): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tools->jpgToPng_convert()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tools))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-18 06:25:29 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 718.
+ 1 SYSTEMPATH\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Tools.php(45): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tools->jpgToPng_convert()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tools))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-18 06:25:32 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 718.
+ 1 SYSTEMPATH\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Tools.php(45): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tools->jpgToPng_convert()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tools))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-18 06:26:22 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 718.
+ 1 SYSTEMPATH\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([], false)
+ 3 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 4 APPPATH\Controllers\Tools.php(45): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tools->jpgToPng_convert()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tools))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-18 06:29:44 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 718.
+ 1 SYSTEMPATH\BaseModel.php(718): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([], false)
+ 3 SYSTEMPATH\BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 4 APPPATH\Controllers\Tools.php(45): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tools->jpgToPng_convert()
+ 6 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tools))
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-18 06:34:31 --> Trying to access array offset on value of type null
+in SYSTEMPATH\Files\File.php on line 148.
+ 1 SYSTEMPATH\Files\File.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'SYSTEMPATH\\Files\\File.php', 148)
+ 2 SYSTEMPATH\Images\Handlers\BaseHandler.php(712): CodeIgniter\Files\File->move('img/filettjpgtopng/1668774871_38e7ae3bad06850d7378.png/')
+ 3 APPPATH\Controllers\Tools.php(37): CodeIgniter\Images\Handlers\BaseHandler->__call('move', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tools->jpgToPng_convert()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tools))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-18 06:34:39 --> Trying to access array offset on value of type null
+in SYSTEMPATH\Files\File.php on line 148.
+ 1 SYSTEMPATH\Files\File.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'SYSTEMPATH\\Files\\File.php', 148)
+ 2 SYSTEMPATH\Images\Handlers\BaseHandler.php(712): CodeIgniter\Files\File->move('img/filettjpgtopng/1668774879_243b635640e4843557f3.png/')
+ 3 APPPATH\Controllers\Tools.php(37): CodeIgniter\Images\Handlers\BaseHandler->__call('move', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tools->jpgToPng_convert()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tools))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-18 06:37:00 --> Trying to access array offset on value of type null
+in SYSTEMPATH\Files\File.php on line 148.
+ 1 SYSTEMPATH\Files\File.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'SYSTEMPATH\\Files\\File.php', 148)
+ 2 SYSTEMPATH\Images\Handlers\BaseHandler.php(712): CodeIgniter\Files\File->move('img/filettjpgtopng/1668775020_f4dcf9604812d924b314.png/')
+ 3 APPPATH\Controllers\Tools.php(38): CodeIgniter\Images\Handlers\BaseHandler->__call('move', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tools->jpgToPng_convert()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tools))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-18 06:37:29 --> Trying to access array offset on value of type null
+in SYSTEMPATH\Files\File.php on line 148.
+ 1 SYSTEMPATH\Files\File.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'SYSTEMPATH\\Files\\File.php', 148)
+ 2 SYSTEMPATH\Images\Handlers\BaseHandler.php(712): CodeIgniter\Files\File->move('img/filettjpgtopng/1668775049_35efe2f06adef72bf33d.png/')
+ 3 APPPATH\Controllers\Tools.php(38): CodeIgniter\Images\Handlers\BaseHandler->__call('move', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tools->jpgToPng_convert()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tools))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-18 06:37:32 --> Trying to access array offset on value of type null
+in SYSTEMPATH\Files\File.php on line 148.
+ 1 SYSTEMPATH\Files\File.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'SYSTEMPATH\\Files\\File.php', 148)
+ 2 SYSTEMPATH\Images\Handlers\BaseHandler.php(712): CodeIgniter\Files\File->move('img/filettjpgtopng/1668775052_c0c902fa9fdc86052fe2.png/')
+ 3 APPPATH\Controllers\Tools.php(38): CodeIgniter\Images\Handlers\BaseHandler->__call('move', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(904): App\Controllers\Tools->jpgToPng_convert()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tools))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

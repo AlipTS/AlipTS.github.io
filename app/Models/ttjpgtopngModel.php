@@ -7,7 +7,7 @@ use CodeIgniter\Model;
 class ttjpgtopngModel extends Model
 {
     protected $table = 'TTJpgToPng';
-    protected $allowedFields = ['id', 'img_file'];
+    protected $allowedFields = ['file_img'];
 
     public function getImage($id = false)
     {

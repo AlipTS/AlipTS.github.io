@@ -26,27 +26,31 @@ class Tools extends BaseController
     {
 
         $bahan = $this->request->getFile('fileJpgToPng');
-        $run = $this->image->withFile($bahan)
-            ->convert(IMAGETYPE_PNG);
-        dd($run->move('img/filettjpgtopng/a.png'));
-        // ->move('img/filettjpgtopng/' . $bahan . '.png');
+        // $run = $this->image->withFile($bahan)->convert(IMAGETYPE_PNG);
+
+        // $run = explode(".",$bahan)[0];
+        $namaImg = $bahan->getRandomName();
+        $namaImg1 = explode('.', $namaImg);
+        // $conv = imagepng($bahan, 'img/filettjpgtopng/' . $namaImg . '. png');
+        $a = $this->image->withFile($bahan)->convert(IMAGETYPE_PNG);
+        $b = 'img/filettjpgtopng/'. $namaImg1[0] . '.png';
+        // dd($b);
+        $run1 = $a->move('img/filettjpgtopng/', $namaImg1[0] . '.png');
 
 
 
         // $imageObject = imagecreatefromjpeg($bahan);
-        // $namaImg = $bahan->getRandomName();
 
-        // $conv = imagepng($imageObject, 'img/filettjpgtopng/' . $namaImg . '. png');
 
         $this->TTJpgToPngModel->save([
-            'img_file' => 'writable/img/filettjpgtopng/' . $bahan . '.png',
+            'file_img' => $b
         ]);
 
-        dd('berhasil up ke db dan img/tt');
+        // dd('berhasil up ke db dan img/tt');
         $data = [
             'title' => "JPG TO PNG",
-            'image' => 'a'
+            'image' => $b
         ];
-        return view('Tools/dashboardTools', $data);
+        return view('Tools/jpgToPng', $data);
     }
 }
